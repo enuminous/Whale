@@ -1,0 +1,13 @@
+stable {'global_drift': 1.1611034748127318e-05, 'recent_drift': -0.002228727832938918, 'cumulative_deviation': 0.018479800278976673, 'recency_history_gap': 0.0009596997702193133, 'regime_memory': 0.0, 'long_run_stability': 0.9901409175584245}
+slow_drift {'global_drift': 0.0025116110347481275, 'recent_drift': 0.000271272167061082, 'cumulative_deviation': 0.1502046837973385, 'recency_history_gap': 0.12404030022978074, 'regime_memory': 0.0, 'long_run_stability': 0.8327381755694628}
+drift_then_flat {'global_drift': 0.0025511385266108163, 'recent_drift': -0.0011143639164694582, 'cumulative_deviation': 0.16814894915879383, 'recency_history_gap': 0.10189515011489036, 'regime_memory': 0.0, 'long_run_stability': 0.8343642880438281}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
